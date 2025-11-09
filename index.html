@@ -5,6 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta 
+    name="description" 
+    content="Startup landing page to showcase business idea with features, pricing, testimonials, and contact form."
+    >
+    <meta 
+    name="keywords" 
+    content="startup, landing page, bootstrap, responsive, business, design"
+    >
+
+    <!-- Favicon images -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/png">
+
     <!-- Page Title -->
     <title>StartUp - Empower Your Next Big Idea</title>
 
@@ -99,6 +112,13 @@
       .social-links a {
         text-decoration: none;
         font-size: 1.25rem;
+      }
+
+      /* Social media hover style */
+      .social-links a:hover {
+        opacity: 0.7;
+        transform: scale(1.1);
+        transition: 0.3s ease;
       }
 
       /* Footer link text style */
@@ -307,11 +327,11 @@
                   <li class="mb-3">
                     <i class="bi bi-check text-primary me-2"></i> 5GB Cloud Storage
                   </li>
-                  <!-- Starter CTA Button -->
-                  <a class="btn btn-outline-primary w-100 fw-bold" href="#">
-                    Start Today
-                  </a>
                 </ul>
+                <!-- Starter CTA Button -->
+                <a class="btn btn-outline-primary w-100 fw-bold" href="#">
+                  Start Today
+                </a>
               </div>
             </div>
           </div>
@@ -339,11 +359,11 @@
                   <li class="mb-3">
                     <i class="bi bi-check text-primary me-2"></i> 50GB Cloud Storage
                   </li>
-                  <!-- Professional CTA Button -->
-                  <a class="btn btn-primary w-100 fw-bold" href="#">
-                    Upgrade Now
-                  </a>
                 </ul>
+                <!-- Professional CTA Button -->
+                <a class="btn btn-primary w-100 fw-bold" href="#">
+                  Upgrade Now
+                </a>
               </div>
             </div>
           </div>
@@ -369,11 +389,11 @@
                   <li class="mb-3">
                     <i class="bi bi-check text-primary me-2"></i> 1TB Premium Storage
                   </li>
-                  <!-- Enterprise CTA Button -->
-                  <a class="btn btn-outline-primary w-100 fw-bold" href="#">
-                    Talk to Sales
-                  </a>
                 </ul>
+                <!-- Enterprise CTA Button -->
+                <a class="btn btn-outline-primary w-100 fw-bold" href="#">
+                  Talk to Sales
+                </a>
               </div>
             </div>
           </div>
@@ -419,7 +439,7 @@
                 <img
                   class="testimonial-img"
                   src="https://cdn.pixabay.com/photo/2020/05/17/20/21/cat-5183427_1280.jpg"
-                  alt="client 1"
+                  alt="Profile picture of client 1"
                 />
                 <div>
                   <h5 class="mb-0 fw-bold">John Doe</h5>
@@ -441,7 +461,7 @@
                 <img
                   class="testimonial-img"
                   src="https://cdn.pixabay.com/photo/2016/02/11/16/59/dog-1194083_1280.jpg"
-                  alt="client 2"
+                  alt="Profile Picture of client 2"
                 />
                 <div>
                   <h5 class="mb-0 fw-bold">Jane Smith</h5>
@@ -463,7 +483,7 @@
                 <img
                   class="testimonial-img"
                   src="https://cdn.pixabay.com/photo/2020/12/12/17/24/little-egret-5826070_1280.jpg"
-                  alt="client 3"
+                  alt=" Profile Picture of client 3"
                 />
                 <div>
                   <h5 class="mb-0 fw-bold">Mike Johnson</h5>
@@ -562,19 +582,19 @@
           <div class="col-md-4 text-md-center">
             <div class="social-links">
               <!-- Twitter link -->
-              <a class="text-white me-3 px-2" href="#">
+              <a aria-label="Follow us on twitter" class="text-white me-3 px-2" href="#">
                 <i class="bi bi-twitter"></i>
               </a>
               <!-- Facebook link -->
-              <a class="text-white me-3 px-2" href="#">
+              <a aria-label="Follow us on facebook" class="text-white me-3 px-2" href="#">
                 <i class="bi bi-facebook"></i>
               </a>
               <!-- LinkedIn link -->
-              <a class="text-white me-3 px-2" href="#">
+              <a aria-label="Follow us on linkedin" class="text-white me-3 px-2" href="#">
                 <i class="bi bi-linkedin"></i>
               </a>
               <!-- Instagram link -->
-              <a class="text-white px-2" href="#">
+              <a aria-label="Follow us on instagram" class="text-white px-2" href="#">
                 <i class="bi bi-instagram"></i>
               </a>
             </div>
