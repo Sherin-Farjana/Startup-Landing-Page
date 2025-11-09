@@ -470,38 +470,55 @@
     </section>
     <!-- =========================== Testimonial Section Ends =========================== -->
 
-    <!-- Contact -->
+    <!-- =========================== Contact Section Starts========================== -->
     <section id="contact" class="bg-light py-5">
       <div class="container py-5">
         <div class="row justify-content-center">
           <div class="col-md-8 col-lg-6">
+            
+            <!-- Contact Card -->
             <div class="card shadow-sm">
               <div class="card-body p-4 p-md-5">
+                
+                <!-- Section Heading -->
                 <h3 class="fw-bold mb-4">Let’s Build Something Great</h3>
+                
+                <!-- Contact Form -->
                 <form>
-                  <div class="mb-3">
-                    <label class="form-label">Name</label>
+                  
+                  <!-- Floating Input: Name -->
+                  <div class="mb-3 form-floating">
                     <input
                       class="form-control form-control-lg"
                       type="text"
                       placeholder="Enter your name"
+                      id="contactName"
                     />
+                    <label class="form-label" for="contactName">Your Name</label>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Email</label>
+
+                  <!-- Floating Input: Email -->
+                  <div class="mb-3 form-floating">
                     <input
                       class="form-control form-control-lg"
                       type="email"
                       placeholder="Your best email"
+                      id="contactEmail"
                     />
+                    <label class="form-label" for="contactEmail">Email</label>
                   </div>
-                  <div class="mb-3">
-                    <label class="form-label">Message</label>
+
+                  <!-- Floating Textarea: Message -->
+                  <div class="form-floating mb-3">
                     <textarea
                       class="form-control form-control-lg"
-                      rows="4"
                       placeholder="Tell us about your project"
+                      id="contactMessage"
+                      style="height:120px;"
                     ></textarea>
+                    <label class="form-label" for="contactMessage">Message</label>
+
+                    <!-- Submit Button -->
                     <button
                       type="submit"
                       class="btn btn-primary btn-lg w-100 mt-4"
@@ -509,13 +526,21 @@
                       Send Message
                     </button>
                   </div>
+
                 </form>
+                <!-- End Contact Form -->
+
               </div>
             </div>
+            <!-- End Contact Card -->
+
           </div>
         </div>
       </div>
     </section>
+    <!-- =========================== Contact Section Ends =========================== -->
+
+
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
       <div class="container">
