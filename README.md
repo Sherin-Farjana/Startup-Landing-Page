@@ -4,6 +4,12 @@ A modern, responsive **startup landing page** built using **HTML5**, **CSS3**, a
 
 ---
 
+## 🚀 Live Demo
+
+**https://sherin-startup-landing-page.netlify.app/**
+
+---
+
 ## Project Overview
 
 This project is a **one-page startup landing site** that emphasizes clarity, scalability, and user engagement.
@@ -49,26 +55,6 @@ Startup-Landing-Page/
 ├── favicon.ico        # Website favicon
 └── README.md          # Project documentation
 ```
-
----
-
-## Getting Started
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-username/startup-landing-page.git
-```
-
-### 2️⃣ Open the project folder
-
-```bash
-cd startup-landing-page
-```
-
-### 3️⃣ Run the project
-
-Simply open `index.html` in your browser, or use **Live Server** in VS Code for real-time updates.
 
 ---
 
