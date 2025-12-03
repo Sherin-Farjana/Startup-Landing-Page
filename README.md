@@ -4,7 +4,7 @@ A modern, responsive **startup landing page** built using **HTML5**, **CSS3**, a
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 **https://sherin-startup-landing-page.netlify.app/**
 
